@@ -1,0 +1,21 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<!--<attr path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='BoundingBoxTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.google.gson.stream.JsonReader']]" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='BoundingBoxTypeAdapter']/method[@name='write' and count(parameter)=2 and parameter[1][@type='com.google.gson.stream.JsonWriter'] and parameter[2][@type='com.mapbox.geojson.BoundingBox']]" name="visibility">public</attr>-->
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='BoundingBoxTypeAdapter']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='CoordinateTypeAdapter']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='GeometryTypeAdapter']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson']/class[@name='PointAsCoordinatesTypeAdapter']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='BoundingBoxSerializer']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='BoundingBoxDeserializer']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='PointSerializer']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='GeometryDeserializer']" />
+	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='PointDeserializer']" />
+</metadata>

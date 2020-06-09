@@ -1,0 +1,38 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<!--<remove-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.feedback']/class[@name='FeedbackAdapter']" />
+	<remove-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.instruction.turnlane']/class[@name='TurnLaneAdapter']" />
+	<remove-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.summary.list']/class[@name='InstructionListAdapter']" />-->
+
+	<add-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.summary.list']/class[@name='InstructionListAdapter']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="viewHolder" type="android.support.v7.widget.RecyclerView.ViewHolder">
+			</parameter>
+			<parameter name="position" type="int">
+			</parameter>
+		</method>
+	</add-node>
+	<add-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.feedback']/class[@name='FeedbackAdapter']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="viewHolder" type="android.support.v7.widget.RecyclerView.ViewHolder">
+			</parameter>
+			<parameter name="position" type="int">
+			</parameter>
+		</method>
+	</add-node>
+	<add-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.instruction.turnlane']/class[@name='TurnLaneAdapter']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="viewHolder" type="android.support.v7.widget.RecyclerView.ViewHolder">
+			</parameter>
+			<parameter name="position" type="int">
+			</parameter>
+		</method>
+	</add-node>
+</metadata>

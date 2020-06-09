@@ -1,0 +1,17 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='PolygonOptions']/method[@name='addHole' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.mapbox.mapboxsdk.geometry.LatLng&gt;...']]" />
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.utils']/class[@name='FileUtils.CheckFileWritePermissionTask']" />
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.utils']/class[@name='FileUtils.CheckFileReadPermissionTask']" />
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='Polygon']" />
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='Marker']" />
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='MarkerOptions']" />
+	<remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='Polyline']" />
+</metadata>
