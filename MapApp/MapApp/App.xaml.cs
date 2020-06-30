@@ -1,19 +1,18 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using MapApp.Services;
-using MapApp.Views;
 
 namespace MapApp
 {
     public partial class App : Application
     {
-
+        //GLOBAL point for destination setting
+        public static string Destination = "0,0";
+        public static string Origin = "0,0";
         public App()
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
         }
 

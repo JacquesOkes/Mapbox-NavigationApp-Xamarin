@@ -46,6 +46,45 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Okes.Mapbox.Android.Accounts">
+      <HintPath>..\..\Okes.Mapbox.Android.Accounts\bin\Debug\Okes.Mapbox.Android.Accounts.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.Core">
+      <HintPath>..\..\Okes.Mapbox.Android.Core\bin\Debug\Okes.Mapbox.Android.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.Gestures">
+      <HintPath>..\..\Okes.Mapbox.Android.Gestures\bin\Debug\Okes.Mapbox.Android.Gestures.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.Navigation">
+      <HintPath>..\..\Okes.Mapbox.Android.Navigation\bin\Debug\Okes.Mapbox.Android.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.NavigationUI">
+      <HintPath>..\..\Okes.Mapbox.Android.NavigationUI\bin\Debug\Okes.Mapbox.Android.NavigationUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.Plugin-Annotation">
+      <HintPath>..\..\Okes.Mapbox.Android.Plugin-Annotation\bin\Debug\Okes.Mapbox.Android.Plugin-Annotation.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.SDK">
+      <HintPath>..\..\Okes.Mapbox.Android.SDK\bin\Debug\Okes.Mapbox.Android.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Android.Telemetry">
+      <HintPath>..\..\Okes.Mapbox.Android.Telemetry\bin\Debug\Okes.Mapbox.Android.Telemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.Navigator">
+      <HintPath>..\..\Okes.Mapbox.Navigator\bin\Debug\Okes.Mapbox.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.SDK.Core">
+      <HintPath>..\..\Okes.Mapbox.SDK.Core\bin\Debug\Okes.Mapbox.SDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.SDK.Geojson">
+      <HintPath>..\..\Okes.Mapbox.SDK.Geojson\bin\Debug\Okes.Mapbox.SDK.Geojson.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.SDK.Services">
+      <HintPath>..\..\Okes.Mapbox.SDK.Services\bin\Debug\Okes.Mapbox.SDK.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Okes.Mapbox.SDK.Turf">
+      <HintPath>..\..\Okes.Mapbox.SDK.Turf\bin\Debug\Okes.Mapbox.SDK.Turf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -87,10 +126,6 @@
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Okes.Mapbox.Android.NavigationUI\Okes.Mapbox.Android.NavigationUI.csproj">
-      <Project>{dbb6b086-514a-43c2-8308-6264a0537c13}</Project>
-      <Name>Okes.Mapbox.Android.NavigationUI</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MapApp\MapApp.csproj">
       <Project>{30451788-B298-4A38-A47C-59575320EA5E}</Project>
       <Name>MapApp</Name>

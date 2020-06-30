@@ -39,6 +39,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Okes.Squareup.okhttp3.okhttp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Okes.Squareup.okhttp3.okhttp\bin\Debug\Okes.Squareup.okhttp3.okhttp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -76,10 +80,6 @@
     <ProjectReference Include="..\Okes.Squareup.okhttp3.logging-interceptor\Okes.Squareup.okhttp3.logging-interceptor.csproj">
       <Project>{a39e9c88-c203-4fa6-849a-fc0ed10a95af}</Project>
       <Name>Okes.Squareup.okhttp3.logging-interceptor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Okes.Squareup.okhttp3.okhttp\Okes.Squareup.okhttp3.okhttp.csproj">
-      <Project>{1091ecaf-007d-4a22-849a-4768f8056289}</Project>
-      <Name>Okes.Squareup.okhttp3.okhttp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
