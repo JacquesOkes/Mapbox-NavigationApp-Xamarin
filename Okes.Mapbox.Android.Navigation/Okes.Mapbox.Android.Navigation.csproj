@@ -48,8 +48,7 @@
     <Reference Include="Okes.Mapbox.Navigator">
       <HintPath>..\Okes.Mapbox.Navigator\bin\Debug\Okes.Mapbox.Navigator.dll</HintPath>
     </Reference>
-    <Reference Include="Okes.Mapbox.SDK.Geojson, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Okes.Mapbox.SDK.Geojson">
       <HintPath>..\Okes.Mapbox.SDK.Geojson\bin\Debug\Okes.Mapbox.SDK.Geojson.dll</HintPath>
     </Reference>
     <Reference Include="Okes.Mapbox.SDK.Services">
