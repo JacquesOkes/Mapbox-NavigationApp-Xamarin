@@ -4,8 +4,8 @@ using System.Text;
 
 namespace MapApp
 {
-    interface INav
+   public interface INav
     {
-        void StartNativeIntentOrActivity();
+       void StartNativeIntentOrActivity();
     }
 }

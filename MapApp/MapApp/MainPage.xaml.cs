@@ -22,8 +22,8 @@ namespace MapApp
         {
 
             //Location Generation
-            double lat = 0;
-            double lon = 0;
+            double lat;
+            double lon;
 
             //Attempt to gain current location
             try
@@ -44,7 +44,7 @@ namespace MapApp
                 App.Origin = lat.ToString() + "," + lon.ToString();
             }
             catch (Exception ex)
-            {
+            {              
                 System.Diagnostics.Debug.WriteLine(ex.ToString());
             }
 

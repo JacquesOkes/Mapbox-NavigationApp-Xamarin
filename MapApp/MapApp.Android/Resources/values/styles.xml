@@ -28,4 +28,11 @@
     <item name="colorAccent">#FF4081</item>
   </style>
 
+	<style name="CustomNavigationMapRoute" parent="NavigationMapRoute">
+		<item name="upcomingManeuverArrowBorderColor">@color/red</item>
+	</style>
+	<style name="CustomNavigationView" parent="NavigationViewLight">
+		<item name="navigationViewRouteStyle">@style/CustomNavigationMapRoute</item>
+	</style>
+
 </resources>

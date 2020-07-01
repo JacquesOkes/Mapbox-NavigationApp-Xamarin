@@ -6,8 +6,7 @@
     <com.mapbox.services.android.navigation.ui.v5.NavigationView
         android:id="@+id/navigationView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:navigationDarkTheme="@style/NavigationViewDark"
+        android:layout_height="match_parent"       
         app:navigationLightTheme="@style/CustomNavigationView" />
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabToggleNightMode"
