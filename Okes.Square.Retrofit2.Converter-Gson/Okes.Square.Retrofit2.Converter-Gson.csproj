@@ -55,9 +55,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\converter-gson-2.4.0.jar">
+    <EmbeddedJar Include="Jars\converter-gson-2.4.0.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </InputJar>
+    </EmbeddedJar>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="GoogleGson">

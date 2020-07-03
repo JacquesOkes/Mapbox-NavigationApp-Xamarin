@@ -69,7 +69,6 @@
     <LibraryProjectZip Include="Jars\mapbox-android-navigation-ui-0.42.0.aar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </LibraryProjectZip>
-    <EmbeddedReferenceJar Include="Jars\mapbox-android-navigation-0.42.0.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

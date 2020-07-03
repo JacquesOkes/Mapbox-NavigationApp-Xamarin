@@ -59,9 +59,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\mapbox-sdk-core-4.8.0.jar">
+    <EmbeddedJar Include="Jars\mapbox-sdk-core-4.8.0.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </InputJar>
+    </EmbeddedJar>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="GoogleGson">

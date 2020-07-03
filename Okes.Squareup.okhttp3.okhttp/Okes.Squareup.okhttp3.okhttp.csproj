@@ -55,9 +55,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\okhttp-3.12.3.jar">
+    <EmbeddedJar Include="Jars\okhttp-3.12.3.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </InputJar>
+    </EmbeddedJar>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Square.OkIO">

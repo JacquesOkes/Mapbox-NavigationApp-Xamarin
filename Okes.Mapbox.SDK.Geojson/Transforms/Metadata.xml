@@ -18,4 +18,7 @@
 	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='PointSerializer']" />
 	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='GeometryDeserializer']" />
 	<remove-node path="/api/package[@name='com.mapbox.geojson.gson']/class[@name='PointDeserializer']" />
+	
+	<!-- Brad Kwon recommended -->
+	<remove-node path="/api/package[@name='com.mapbox.geojson']/interface[@name='CoordinateContainer']/method[@name='coordinates' and count(parameter)=0]" />
 </metadata>

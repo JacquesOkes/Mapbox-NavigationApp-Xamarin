@@ -55,9 +55,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\logging-interceptor-3.11.0.jar">
+    <EmbeddedJar Include="Jars\logging-interceptor-3.11.0.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </InputJar>
+    </EmbeddedJar>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Okes.Squareup.okhttp3.okhttp\Okes.Squareup.okhttp3.okhttp.csproj">

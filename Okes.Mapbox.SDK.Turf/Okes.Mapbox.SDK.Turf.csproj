@@ -58,9 +58,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\mapbox-sdk-turf-4.8.0.jar">
+    <EmbeddedJar Include="Jars\mapbox-sdk-turf-4.8.0.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </InputJar>
+    </EmbeddedJar>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
