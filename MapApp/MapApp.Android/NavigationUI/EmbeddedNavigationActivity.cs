@@ -33,7 +33,7 @@ namespace MapApp.Droid.NavigationUI
         Com.Mapbox.Services.Android.Navigation.UI.V5.NavigationView navigationView;
         View spacer;
         TextView speedWidget;
-      //  public FloatingActionButton fabNightModeToggle;
+        public FloatingActionButton fabNightModeToggle;
 
         public bool bottomSheetVisible = true;
         bool instructionListShown = false;
@@ -52,7 +52,7 @@ namespace MapApp.Droid.NavigationUI
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_embedded_navigation);
             navigationView = FindViewById<Com.Mapbox.Services.Android.Navigation.UI.V5.NavigationView>(Resource.Id.navigationView);
-           // fabNightModeToggle = FindViewById<FloatingActionButton>(Resource.Id.fabToggleNightMode);
+            fabNightModeToggle = FindViewById<FloatingActionButton>(Resource.Id.fabToggleNightMode);
             speedWidget = FindViewById<TextView>(Resource.Id.speed_limit);
             spacer = FindViewById<View>(Resource.Id.spacer);
             SetSpeedWidgetAnchor(Resource.Id.summaryBottomSheet);
@@ -152,11 +152,11 @@ namespace MapApp.Droid.NavigationUI
             speedWidget.Visibility = shown ? ViewStates.Gone : ViewStates.Visible;
             if (instructionListShown)
             {
-                //fabNightModeToggle.Hide();
+                fabNightModeToggle.Hide();
             }
             else
             {
-               // fabNightModeToggle.Show();
+                fabNightModeToggle.Show();
             }
         }
         #endregion
@@ -192,10 +192,10 @@ namespace MapApp.Droid.NavigationUI
 
         void SetupNightModeFab()
         {
-           // fabNightModeToggle.Click += (sender, e) =>
-           // {
-           //     ToggleNightMode();
-           // };
+            fabNightModeToggle.Click += (sender, e) =>
+            {
+                ToggleNightMode();
+            };
         }
 
         void ToggleNightMode()
@@ -311,7 +311,7 @@ namespace MapApp.Droid.NavigationUI
             {
                 case BottomSheetBehavior.StateHidden:
                     parent.bottomSheetVisible = false;
-                   // parent.fabNightModeToggle.Hide();
+                    parent.fabNightModeToggle.Hide();
                     parent.SetSpeedWidgetAnchor(Resource.Id.recenterBtn);
                     break;
                 case BottomSheetBehavior.StateExpanded:
@@ -322,7 +322,7 @@ namespace MapApp.Droid.NavigationUI
                     {
                         // View needs to be anchored to the bottom sheet before it is finished expanding
                         // because of the animation
-                       // parent.fabNightModeToggle.Show();
+                        parent.fabNightModeToggle.Show();
                         parent.SetSpeedWidgetAnchor(Resource.Id.summaryBottomSheet);
                     }
                     break;

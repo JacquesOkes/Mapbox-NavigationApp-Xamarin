@@ -10,6 +10,25 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 app:navigationLightTheme="@style/CustomNavigationView" />
  
+    <LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="top|start"
+android:layout_marginEnd="16dp"
+android:layout_marginRight="16dp"
+android:orientation="vertical"
+app:layout_anchor="@id/spacer"
+app:layout_anchorGravity="top|end"> 
+ 
+<android.support.design.widget.FloatingActionButton
+android:id="@+id/fabToggleNightMode"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:tint="@android:color/white"
+app:srcCompat="@drawable/ic_refresh" />
+ 
+</LinearLayout>
  
 <TextView
 android:id="@+id/speed_limit"
