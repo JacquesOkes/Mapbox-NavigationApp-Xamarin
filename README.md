@@ -26,12 +26,16 @@ Mapbox.Android.NavigationUI</br></i>
 
 Finally : MapApp.Android
 
-You will need to enter your own AccessToken contained in Resources/values/strings.xml in order for it to be linked to a valid account.
+<h2>Description</h2>
+
+You will need to enter your own AccessToken contained in <b>Resources/values/strings.xml</b> in order for it to be linked to a valid account.
 
 The example included is only the Embedded Navigation UI example - Called from a Xamarin.Forms application</br>
 
 For other examples please see Brad Kwon Github Account for the additional items</br>
 <a href="https://github.com/BradKwon/Xamarin.Android.Binding.Mapbox.Android.Navigation.UI">https://github.com/BradKwon/Xamarin.Android.Binding.Mapbox.Android.Navigation.UI</a>
+
+<h2>Credits</h2>
 
 Special credit goes to Brad Kwon for the original bindings and assistance throughout the project to complete these bindings!
 <a href="https://github.com/BradKwon">https://github.com/BradKwon</a>
