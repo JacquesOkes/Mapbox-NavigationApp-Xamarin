@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Com.Mapbox.Mapboxsdk;
 
 namespace MapApp.Droid
 {
@@ -18,6 +19,13 @@ namespace MapApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+
+            //// Set access token
+            //string mapboxAccessToken = GetString(Resource.String.mapbox_access_token);
+            //if (string.IsNullOrWhiteSpace(mapboxAccessToken))
+            //    System.Diagnostics.Debug.WriteLine("mapbox token is not set");
+
+            //Mapbox.GetInstance(ApplicationContext, "pk.eyJ1IjoiamFjcXVlc29rZXMiLCJhIjoiY2s5ZTZrbjF3MDIyODNlcGk2bjh1MnZ6MyJ9.qPz2yzlpOZQZvk7unMRvjQ");
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
