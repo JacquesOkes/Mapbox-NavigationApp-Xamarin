@@ -54,7 +54,8 @@
     <Reference Include="Okes.Square.Retrofit2.Retrofit">
       <HintPath>..\Okes.Square.Retrofit2.Retrofit\bin\Debug\Okes.Square.Retrofit2.Retrofit.dll</HintPath>
     </Reference>
-    <Reference Include="Okes.Squareup.okhttp3.okhttp">
+    <Reference Include="Okes.Squareup.okhttp3.okhttp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Okes.Squareup.okhttp3.okhttp\bin\Debug\Okes.Squareup.okhttp3.okhttp.dll</HintPath>
     </Reference>
     <Reference Include="System" />

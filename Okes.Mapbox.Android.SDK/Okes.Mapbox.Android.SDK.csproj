@@ -54,9 +54,6 @@
     <Reference Include="Okes.Mapbox.SDK.Turf">
       <HintPath>..\Okes.Mapbox.SDK.Turf\bin\Debug\Okes.Mapbox.SDK.Turf.dll</HintPath>
     </Reference>
-    <Reference Include="Okes.Squareup.okhttp3.okhttp">
-      <HintPath>..\Okes.Squareup.okhttp3.okhttp\bin\Debug\Okes.Squareup.okhttp3.okhttp.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
