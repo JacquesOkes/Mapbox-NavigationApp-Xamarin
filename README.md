@@ -6,7 +6,7 @@ Bindings &amp; implementation of Mapbox Android SDK version 0.42.0
 To build MapApp.Android, first build each libary individually in the following order: </br>
 
 <i>Squareup.Picasso</br>
-Squareup.okhttp2.okhttl</br>
+Squareup.okhttp2.okhttp</br>
 Suqareup.okhttp3.logging-interceptor</br>
 Squareup.Retrofit2.Retrofit</br>
 Squareup.Retrofit2.Converter-Gson</br>
